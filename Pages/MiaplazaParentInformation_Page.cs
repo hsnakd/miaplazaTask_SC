@@ -73,6 +73,18 @@ namespace csharp_cucumber_selenium_framework.Pages
         [FindsBy(How = How.XPath, Using = "(//input[@id='Date-date'])[1]")]
         public IWebElement preferredDate { get; set; }
 
+        
+        /** New version of the phone number field step */
+
+        
+        [FindsBy(How = How.XPath, Using = "(//div[@class='selected-dial-code'])[1]")]
+        public IWebElement countryBox { get; set; }
+                        
+        [FindsBy(How = How.XPath, Using = "//li[@data-dial-code='90' and @data-country-code='tr']")]
+        public IWebElement country { get; set; }
+                        
+        [FindsBy(How = How.XPath, Using = "//input[@name='PhoneNumber']")]
+        public IWebElement phoneNumber { get; set; }
 
     }
 }

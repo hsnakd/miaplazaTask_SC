@@ -49,7 +49,14 @@ namespace Miaplaza.StepDefinitions
             miaplazaParentInformationPage.parent1FirstName.SendKeys(faker.Name.FirstName());
             miaplazaParentInformationPage.parent1LastName.SendKeys(faker.Name.LastName());
             miaplazaParentInformationPage.parent1Email.SendKeys(faker.Internet.Email());
-            miaplazaParentInformationPage.parent1PhoneNumber.SendKeys(faker.Phone.PhoneNumberFormat());
+            
+            miaplazaParentInformationPage.countryBox.Click();
+            miaplazaParentInformationPage.country.Click();
+            string phoneNumber = BrowserUtils.GenerateTurkishPhoneNumber();
+            miaplazaParentInformationPage.phoneNumber.SendKeys(phoneNumber);
+            
+            /** Old version of the phone number field step */
+            // miaplazaParentInformationPage.parent1PhoneNumber.SendKeys(faker.Phone.PhoneNumberFormat());
 
             // Select Second Parent Dropdown
             var secondParentDropdown = new SelectElement(miaplazaParentInformationPage.secondParentDropdown);
@@ -68,7 +75,7 @@ namespace Miaplaza.StepDefinitions
             // Preferred start date
             miaplazaParentInformationPage.preferredDate.SendKeys("26-Jul-2024");
 
-            BrowserUtils.Sleep(10);
+            // BrowserUtils.Sleep(10);
 
             // Next button for Student Information Section
             miaplazaParentInformationPage.nextButton.Click();
@@ -160,7 +167,7 @@ namespace Miaplaza.StepDefinitions
             var student2Needs = new SelectElement(miaplazaStudentInformationPage.student2Needs);
             student2Needs.SelectByText("No");
             
-            BrowserUtils.Sleep(10);
+            // BrowserUtils.Sleep(10);
 
 
             // Next button for Financial Aid Application Section
@@ -179,7 +186,8 @@ namespace Miaplaza.StepDefinitions
             miaplazaFinancialAidPage.householdCost.SendKeys(faker.Random.Double((int)250, (int)400).ToString());
             miaplazaFinancialAidPage.householdBenefit.SendKeys(faker.Lorem.Sentence());
             miaplazaFinancialAidPage.householdEvidence.SendKeys(faker.Lorem.Paragraph());
-            BrowserUtils.Sleep(10);
+            
+            // BrowserUtils.Sleep(10);
         }
 
         [When("The user submits the application form")]
