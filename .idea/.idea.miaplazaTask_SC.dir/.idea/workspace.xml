@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b178cbf-a0c4-4d30-a43c-bdbf81857de3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/Debug/TestExecution.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/TestExecution.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/csharp-cucumber-selenium-framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/csharp-cucumber-selenium-framework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/csharp-cucumber-selenium-framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/csharp-cucumber-selenium-framework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp-cucumber-selenium-framework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-cucumber-selenium-framework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/csharp-cucumber-selenium-framework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hsnakd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hsnakd/miaplazaTask_SC.git",
+    "accountId": "800a55d8-eb30-4a42-9a08-fe82a766c3e3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ihOSHnELyq3jDIrXczv6SKjsBU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/HSN/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/HSN/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/HSN/Library/Application Support/Symbols/src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b178cbf-a0c4-4d30-a43c-bdbf81857de3" name="Changes" comment="" />
+      <created>1719939340712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719939340712</updated>
+      <workItem from="1719939341764" duration="4000" />
+      <workItem from="1719944506475" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
