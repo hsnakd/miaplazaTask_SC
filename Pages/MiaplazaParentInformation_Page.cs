@@ -33,6 +33,7 @@ namespace csharp_cucumber_selenium_framework.Pages
         [FindsBy(How = How.Id, Using = "Email1-arialabel")]
         public IWebElement parent2Email { get; set; }
 
+        /** Old version of the phone number field step */
         [FindsBy(How = How.Id, Using = "PhoneNumber")]
         public IWebElement parent1PhoneNumber { get; set; }
 
@@ -75,7 +76,6 @@ namespace csharp_cucumber_selenium_framework.Pages
 
         
         /** New version of the phone number field step */
-
         
         [FindsBy(How = How.XPath, Using = "(//div[@class='selected-dial-code'])[1]")]
         public IWebElement countryBox { get; set; }

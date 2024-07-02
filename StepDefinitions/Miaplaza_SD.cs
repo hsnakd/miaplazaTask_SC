@@ -50,6 +50,7 @@ namespace Miaplaza.StepDefinitions
             miaplazaParentInformationPage.parent1LastName.SendKeys(faker.Name.LastName());
             miaplazaParentInformationPage.parent1Email.SendKeys(faker.Internet.Email());
             
+            /** New version of the phone number field step */
             miaplazaParentInformationPage.countryBox.Click();
             miaplazaParentInformationPage.country.Click();
             string phoneNumber = BrowserUtils.GenerateTurkishPhoneNumber();
