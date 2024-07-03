@@ -14,3 +14,9 @@ Feature: Apply to MiaPrep Online High School
       Examples:
           | confirmation message                             |
           | You have successfully submitted your application |
+
+
+#  Notes:
+#  The forms of parents and students were filled in, but since they were not requested, the last two steps were prepared as if they had been submitted.
+
+
