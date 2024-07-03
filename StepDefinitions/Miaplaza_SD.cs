@@ -195,7 +195,7 @@ namespace Miaplaza.StepDefinitions
         public void TheUserSubmitsTheApplicationForm()
         {
             // Uncomment the line below once the actual submit button is available
-            // Assert.True(miaplazaFinancialAidPage.SubmitButton.Enabled);
+            Assert.IsTrue(miaplazaFinancialAidPage.submitButton.Enabled);
         }
 
         [Then(@"Verify that the user should see a ""(.*)""")]
