@@ -1,0 +1,83 @@
+# User-specific files
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Rider specific
+.idea/
+.idea_modules/
+.idea/*.iml
+.idea/*.iws
+.idea/gradle.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/.riderData
+.idea/.rider*
+.idea/httpRequests
+.idea/markdown-navigator
+
+# Rider special folders
+.idea/shelf/
+.idea/vcs.xml
+
+# Visual Studio Code
+.vscode/
+
+# Rider local history
+.idea/localHistory/
+
+# Rider project specific
+.idea/.name
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/packages/
+.nuget/v3-cache/
+*.nupkg.metadata
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# File-based project information
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSTest test Results
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+.ReSharper*/
+
+# Nunit
+*.VisualState.xml
+TestResult.xml
+
+# Cucumber Reports
+cucumber-report.html
+
+# Coverlet
+coverage.opencover.xml
+coverage.cobertura.xml
+coverage.json

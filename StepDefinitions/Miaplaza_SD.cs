@@ -74,7 +74,7 @@ namespace Miaplaza.StepDefinitions
             miaplazaParentInformationPage.otherSocialMedia.Click();
 
             // Preferred start date
-            miaplazaParentInformationPage.preferredDate.SendKeys("26-Jul-2024");
+            miaplazaParentInformationPage.preferredDate.SendKeys("26-Aug-2024");
 
             // BrowserUtils.Sleep(10);
 
